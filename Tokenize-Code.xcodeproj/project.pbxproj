@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FB98C761D548E6B006E44CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB98C751D548E6B006E44CE /* AppDelegate.m */; };
+		7FB98C791D548E6B006E44CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB98C781D548E6B006E44CE /* main.m */; };
+		7FB98C7B1D548E6B006E44CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB98C7A1D548E6B006E44CE /* Assets.xcassets */; };
+		7FB98C7E1D548E6B006E44CE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FB98C7C1D548E6B006E44CE /* MainMenu.xib */; };
+		7FB98C891D548E6B006E44CE /* Tokenize_CodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB98C881D548E6B006E44CE /* Tokenize_CodeTests.m */; };
+		7FB98C941D548E6B006E44CE /* Tokenize_CodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB98C931D548E6B006E44CE /* Tokenize_CodeUITests.m */; };
+		7FB98CA21D548F63006E44CE /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7FB98CA11D548F63006E44CE /* AppController.mm */; };
+		7FB98CA51D5492C7006E44CE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB98CA41D5492C7006E44CE /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FB98C851D548E6B006E44CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FB98C691D548E6B006E44CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FB98C701D548E6B006E44CE;
+			remoteInfo = "Tokenize-Code";
+		};
+		7FB98C901D548E6B006E44CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FB98C691D548E6B006E44CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FB98C701D548E6B006E44CE;
+			remoteInfo = "Tokenize-Code";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FB98C711D548E6B006E44CE /* Tokenize-Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tokenize-Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB98C741D548E6B006E44CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FB98C751D548E6B006E44CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FB98C781D548E6B006E44CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FB98C7A1D548E6B006E44CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FB98C7D1D548E6B006E44CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7FB98C7F1D548E6B006E44CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB98C841D548E6B006E44CE /* Tokenize-CodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tokenize-CodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB98C881D548E6B006E44CE /* Tokenize_CodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tokenize_CodeTests.m; sourceTree = "<group>"; };
+		7FB98C8A1D548E6B006E44CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB98C8F1D548E6B006E44CE /* Tokenize-CodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tokenize-CodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB98C931D548E6B006E44CE /* Tokenize_CodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tokenize_CodeUITests.m; sourceTree = "<group>"; };
+		7FB98C951D548E6B006E44CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB98CA11D548F63006E44CE /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = "<group>"; };
+		7FB98CA31D548F73006E44CE /* AppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		7FB98CA41D5492C7006E44CE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		7FB98CA61D5495EE006E44CE /* lexer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lexer.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FB98C6E1D548E6B006E44CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB98CA51D5492C7006E44CE /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB98C811D548E6B006E44CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB98C8C1D548E6B006E44CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FB98C681D548E6B006E44CE = {
+			isa = PBXGroup;
+			children = (
+				7FB98CA41D5492C7006E44CE /* WebKit.framework */,
+				7FB98C731D548E6B006E44CE /* Tokenize-Code */,
+				7FB98C871D548E6B006E44CE /* Tokenize-CodeTests */,
+				7FB98C921D548E6B006E44CE /* Tokenize-CodeUITests */,
+				7FB98C721D548E6B006E44CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FB98C721D548E6B006E44CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FB98C711D548E6B006E44CE /* Tokenize-Code.app */,
+				7FB98C841D548E6B006E44CE /* Tokenize-CodeTests.xctest */,
+				7FB98C8F1D548E6B006E44CE /* Tokenize-CodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FB98C731D548E6B006E44CE /* Tokenize-Code */ = {
+			isa = PBXGroup;
+			children = (
+				7FB98CA61D5495EE006E44CE /* lexer.hpp */,
+				7FB98C741D548E6B006E44CE /* AppDelegate.h */,
+				7FB98C751D548E6B006E44CE /* AppDelegate.m */,
+				7FB98C7A1D548E6B006E44CE /* Assets.xcassets */,
+				7FB98C7C1D548E6B006E44CE /* MainMenu.xib */,
+				7FB98CA11D548F63006E44CE /* AppController.mm */,
+				7FB98CA31D548F73006E44CE /* AppController.h */,
+				7FB98C7F1D548E6B006E44CE /* Info.plist */,
+				7FB98C771D548E6B006E44CE /* Supporting Files */,
+			);
+			path = "Tokenize-Code";
+			sourceTree = "<group>";
+		};
+		7FB98C771D548E6B006E44CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FB98C781D548E6B006E44CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FB98C871D548E6B006E44CE /* Tokenize-CodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FB98C881D548E6B006E44CE /* Tokenize_CodeTests.m */,
+				7FB98C8A1D548E6B006E44CE /* Info.plist */,
+			);
+			path = "Tokenize-CodeTests";
+			sourceTree = "<group>";
+		};
+		7FB98C921D548E6B006E44CE /* Tokenize-CodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FB98C931D548E6B006E44CE /* Tokenize_CodeUITests.m */,
+				7FB98C951D548E6B006E44CE /* Info.plist */,
+			);
+			path = "Tokenize-CodeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FB98C701D548E6B006E44CE /* Tokenize-Code */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB98C981D548E6B006E44CE /* Build configuration list for PBXNativeTarget "Tokenize-Code" */;
+			buildPhases = (
+				7FB98C6D1D548E6B006E44CE /* Sources */,
+				7FB98C6E1D548E6B006E44CE /* Frameworks */,
+				7FB98C6F1D548E6B006E44CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tokenize-Code";
+			productName = "Tokenize-Code";
+			productReference = 7FB98C711D548E6B006E44CE /* Tokenize-Code.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FB98C831D548E6B006E44CE /* Tokenize-CodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB98C9B1D548E6B006E44CE /* Build configuration list for PBXNativeTarget "Tokenize-CodeTests" */;
+			buildPhases = (
+				7FB98C801D548E6B006E44CE /* Sources */,
+				7FB98C811D548E6B006E44CE /* Frameworks */,
+				7FB98C821D548E6B006E44CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FB98C861D548E6B006E44CE /* PBXTargetDependency */,
+			);
+			name = "Tokenize-CodeTests";
+			productName = "Tokenize-CodeTests";
+			productReference = 7FB98C841D548E6B006E44CE /* Tokenize-CodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FB98C8E1D548E6B006E44CE /* Tokenize-CodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB98C9E1D548E6B006E44CE /* Build configuration list for PBXNativeTarget "Tokenize-CodeUITests" */;
+			buildPhases = (
+				7FB98C8B1D548E6B006E44CE /* Sources */,
+				7FB98C8C1D548E6B006E44CE /* Frameworks */,
+				7FB98C8D1D548E6B006E44CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FB98C911D548E6B006E44CE /* PBXTargetDependency */,
+			);
+			name = "Tokenize-CodeUITests";
+			productName = "Tokenize-CodeUITests";
+			productReference = 7FB98C8F1D548E6B006E44CE /* Tokenize-CodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FB98C691D548E6B006E44CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jared Bruni";
+				TargetAttributes = {
+					7FB98C701D548E6B006E44CE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7FB98C831D548E6B006E44CE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7FB98C701D548E6B006E44CE;
+					};
+					7FB98C8E1D548E6B006E44CE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7FB98C701D548E6B006E44CE;
+					};
+				};
+			};
+			buildConfigurationList = 7FB98C6C1D548E6B006E44CE /* Build configuration list for PBXProject "Tokenize-Code" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FB98C681D548E6B006E44CE;
+			productRefGroup = 7FB98C721D548E6B006E44CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FB98C701D548E6B006E44CE /* Tokenize-Code */,
+				7FB98C831D548E6B006E44CE /* Tokenize-CodeTests */,
+				7FB98C8E1D548E6B006E44CE /* Tokenize-CodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FB98C6F1D548E6B006E44CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB98C7B1D548E6B006E44CE /* Assets.xcassets in Resources */,
+				7FB98C7E1D548E6B006E44CE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB98C821D548E6B006E44CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB98C8D1D548E6B006E44CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FB98C6D1D548E6B006E44CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB98C791D548E6B006E44CE /* main.m in Sources */,
+				7FB98CA21D548F63006E44CE /* AppController.mm in Sources */,
+				7FB98C761D548E6B006E44CE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB98C801D548E6B006E44CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB98C891D548E6B006E44CE /* Tokenize_CodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB98C8B1D548E6B006E44CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB98C941D548E6B006E44CE /* Tokenize_CodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FB98C861D548E6B006E44CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FB98C701D548E6B006E44CE /* Tokenize-Code */;
+			targetProxy = 7FB98C851D548E6B006E44CE /* PBXContainerItemProxy */;
+		};
+		7FB98C911D548E6B006E44CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FB98C701D548E6B006E44CE /* Tokenize-Code */;
+			targetProxy = 7FB98C901D548E6B006E44CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FB98C7C1D548E6B006E44CE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FB98C7D1D548E6B006E44CE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FB98C961D548E6B006E44CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7FB98C971D548E6B006E44CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7FB98C991D548E6B006E44CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tokenize-Code/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "LostSideDead.Tokenize-Code";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FB98C9A1D548E6B006E44CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tokenize-Code/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "LostSideDead.Tokenize-Code";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7FB98C9C1D548E6B006E44CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tokenize-CodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LostSideDead.Tokenize-CodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tokenize-Code.app/Contents/MacOS/Tokenize-Code";
+			};
+			name = Debug;
+		};
+		7FB98C9D1D548E6B006E44CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tokenize-CodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LostSideDead.Tokenize-CodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tokenize-Code.app/Contents/MacOS/Tokenize-Code";
+			};
+			name = Release;
+		};
+		7FB98C9F1D548E6B006E44CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tokenize-CodeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LostSideDead.Tokenize-CodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tokenize-Code";
+			};
+			name = Debug;
+		};
+		7FB98CA01D548E6B006E44CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tokenize-CodeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LostSideDead.Tokenize-CodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tokenize-Code";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FB98C6C1D548E6B006E44CE /* Build configuration list for PBXProject "Tokenize-Code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB98C961D548E6B006E44CE /* Debug */,
+				7FB98C971D548E6B006E44CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB98C981D548E6B006E44CE /* Build configuration list for PBXNativeTarget "Tokenize-Code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB98C991D548E6B006E44CE /* Debug */,
+				7FB98C9A1D548E6B006E44CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FB98C9B1D548E6B006E44CE /* Build configuration list for PBXNativeTarget "Tokenize-CodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB98C9C1D548E6B006E44CE /* Debug */,
+				7FB98C9D1D548E6B006E44CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FB98C9E1D548E6B006E44CE /* Build configuration list for PBXNativeTarget "Tokenize-CodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB98C9F1D548E6B006E44CE /* Debug */,
+				7FB98CA01D548E6B006E44CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FB98C691D548E6B006E44CE /* Project object */;
+}

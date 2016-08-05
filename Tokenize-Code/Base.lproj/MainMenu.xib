@@ -707,7 +707,7 @@
                             <rect key="frame" x="-100" y="-100" width="87" height="18"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
-                        <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="iaA-Gi-pXi">
+                        <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="iaA-Gi-pXi">
                             <rect key="frame" x="424" y="1" width="15" height="295"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
@@ -724,7 +724,7 @@
                     </button>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="876" y="529"/>
+            <point key="canvasLocation" x="987" y="384"/>
         </window>
         <window title="Source Code" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="VaE-Ha-bA6">
             <windowStyleMask key="styleMask" titled="YES" closable="YES"/>

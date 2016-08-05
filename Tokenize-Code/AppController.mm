@@ -80,9 +80,10 @@ std::string toHTML(const std::string &text) {
  \param out stream to output the html to
  \param t the Token to output
  */
+
+unsigned int counter = 0;
+
 void outputToken(std::ostringstream &out, lex::Token &t) {
-    
-    static unsigned int counter = 0;
     
     if(t.isKeyword() && (t.getTokenType() != lex::TOKEN_STRING && t.getTokenType() != lex::TOKEN_SINGLE)) {
         out << "<tr><td class=\"lineindex_color\">" << ++counter << "</td><td class=\"codekeyword\">" << toHTML(t.getToken()) << "</b></td><td class=\"linetype\">Keyword</td><td class=\"linenum\">" << t.line << "</td></tr>";
@@ -117,6 +118,7 @@ void outputToken(std::ostringstream &out, lex::Token &t) {
  \param argv argument values for main function
  */
 int run_main(const std::string &ctext) {
+    counter = 0;
     std::ostringstream ofile;
     std::istringstream input(ctext);
     lex::Scanner scan(input);

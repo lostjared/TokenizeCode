@@ -25,8 +25,12 @@
 
 int run_main(const std::string &ctext);
 
+- (void) awakeFromNib {
+    [text_v setAutomaticQuoteSubstitutionEnabled: NO];
+}
 
 - (IBAction) tokenizeCode:(id) sender {
+    
     NSString *text = [[text_v textStorage] string];
     std::string cxxtext = std::string([text UTF8String]);
     run_main(cxxtext);
